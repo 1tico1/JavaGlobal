@@ -17,7 +17,6 @@ public class Hospital extends Medico{
 	@NotBlank
 	private String especialidades;
 	
-	
 	private List<Medico> medicos;
 	
 	public Hospital() {} 
