@@ -4,7 +4,7 @@ import java.util.List;
 
 import jakarta.validation.constraints.NotBlank;
 
-public class Medico extends Paciente{
+public class Medico {
 	private long id;
 	@NotBlank
 	private String crm;
